@@ -47,49 +47,45 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "2020 3X3 Basketball", //Project Title - Add Your Project Title Here
+      //Project Title
+      title: "2020 3X3 Basketball", 
+      //Project Discription
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "2020 3X3 Basketball Uniform Design", 
+      //Project Image 
       image:
         design03,
-      //Project URL - Add Your Project Url Here
+      //Project URL - Detail Page Move
       url: "/design01",
     },
     {
-      title: "2020 Afreeca Freecs", //Project Title - Add Your Project Title Here
+      title: "2020 Afreeca Freecs",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      "2020 Afreeca Freecs Uniform Design & Products, Brand Design", 
       image:
         design04,
-      //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
     {
-      title: "ATHS Baseball Team", //Project Title - Add Your Project Title Here
+      title: "ATHS Baseball Team",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "Ansan Technical High School Baseball Team Uniform Design",
       image:
         design05,
-      //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
     {
-      title: "SK Wyvenrs MD & Banner", //Project Title - Add Your Project Title Here
+      title: "SK Wyvenrs MD & Banner",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      "2020 Afreeca Freecs Uniform Design & Products, Brand Design", 
       image:
         design06,
-      //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
     {
-      title: "KPGA 2019 Card", //Project Title - Add Your Project Title Here
+      title: "KPGA 2019 Card", 
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      "2020 Afreeca Freecs Uniform Design & Products, Brand Design", 
       //Project Image - Add Your Project Image Here
       image:
         design02,
@@ -97,25 +93,14 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Personal Project", //Project Title - Add Your Project Title Here
+      title: "Personal Project",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      "2020 Afreeca Freecs Uniform Design & Products, Brand DesignLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,v",
       image:
         design01,
-      //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
 
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
 
   // End Work Section -----------------------
@@ -202,3 +187,4 @@ export default {
 }
 
 // Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
+
