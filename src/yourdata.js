@@ -14,9 +14,12 @@ import instagramIcon from "./images/instagram.svg"
 
 
 // Designs Image
-import design01 from "./images/designs/pic07.png"
+import design01 from "./images/designs/design01.png"
 import design02 from "./images/designs/design02.png"
 import design03 from "./images/designs/design03.jpeg"
+import design04 from "./images/designs/design04.jpeg"
+import design05 from "./images/designs/design05.jpeg"
+import design06 from "./images/designs/design06.jpeg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -26,15 +29,15 @@ export default {
   name: "chetan",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Uniform design",
     //Line 2 For Header
     "products, brands,",
     //Line 3 For Header
-    "and experience",
+    "and others",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "2년 4개월의 디자이너 시절 디자인한 작업물입니다. React를 사용하여 만든 디자인 웹사이트를 만들었습니다. ",
 
   //Contact Email
   contactEmail: "123408hi@gmail.com",
@@ -44,7 +47,7 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "2020 3X3 Basketball", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -54,7 +57,37 @@ export default {
       url: "/design01",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "2020 Afreeca Freecs", //Project Title - Add Your Project Title Here
+      para:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      image:
+        design04,
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+    },
+    {
+      title: "ATHS Baseball Team", //Project Title - Add Your Project Title Here
+      para:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      image:
+        design05,
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+    },
+    {
+      title: "SK Wyvenrs MD & Banner", //Project Title - Add Your Project Title Here
+      para:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      image:
+        design06,
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+    },
+    {
+      title: "KPGA 2019 Card", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -64,42 +97,12 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Personal Project", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       image:
-        design03,
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Four", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      image:
-        design03,
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      image:
-        design03,
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      image:
-        design03,
+        design01,
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
