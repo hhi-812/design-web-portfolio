@@ -2,32 +2,43 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
-const About = () => {
+const Uxui = () => {
   return (
-    <div className="secion" id="about">
+    <div className="section" id="uxui">
       <div className="container">
         <div className="about-section">
           <div className="content">
             <Fade bottom cascade>
-              <h1>About Me</h1>
+              <h1>UX/UI Design</h1>
             </Fade>
+              {data.uxuiOne}
+
             <p>
-              {data.aboutParaOne}
+              <br /><br /><br />
               <br></br>
               <br></br>
-              {data.aboutParaTwo}
+              {data.uxuiTwo}
               <br></br>
               <br></br>
-              {data.aboutParaThree}
+              {data.uxuiThree}
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img src={data.uxuiImageOne} alt="uxuiImageOne"></img>
           </div>
         </div>
+          <br /><br /><br />
+          <br /><br /><br />
+          <br /><br /><br />
+          <br />
+          <div className="image-wrapper">
+            <img src={data.uxuiImageTwo} alt="uxuiImageTwo"></img>
+          </div>
+
+
       </div>
     </div>
   )
 }
 
-export default About
+export default Uxui

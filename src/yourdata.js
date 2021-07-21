@@ -40,6 +40,10 @@ import kpga01 from "./images/details/kpga/kpga_01.png"
 import kpga02 from "./images/details/kpga/kpga_02.png"
 import kpga03 from "./images/details/kpga/kpga_03.png"
 
+import uxui01 from "./images/details/uxui/uxui_01.png"
+import uxui02 from "./images/details/uxui/uxui_02.png"
+
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -197,15 +201,18 @@ export default {
     kpga03,
 
 
-  aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-  aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-
+  uxuiOne:
+    "주식 초보자 가이드 UX/UI Design",
+  uxuiTwo:
+    "UX/UI 수료 과정 중, 개인적인 경험과 주변의 이야기를 듣고 기획하였습니다. 주식을 처음 시작할 떄 기초적인 정보를 제공하는 애플리케이션의 필요를 느끼고 따뜻한 느낌의 애플리케이션 UI를 구현해 보았습니다.",
+  uxuiThree:
+    "During the UX/UI process, I heard stories from people around me and planned it with more personal experience. When I first started the stock, I felt the need for an application that provides basic information, so I implemented a warm-feeling application UI.",
+  uxuiImageOne:
+    uxui01,
+  uxuiImageTwo:
+    uxui02,
+ 
+  
 
   // aboutParaOne:
   //   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
