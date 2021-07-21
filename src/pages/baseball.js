@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,19 +9,16 @@ import About from "../components/about"
 import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
+import Baseball from "../components/Baseball"
 
 
-const IndexPage = () => (
+const baseball = () => (
   <Layout>
     <SEO title="Portfolio Template" />
-    <Header></Header>
-    <Work></Work>
-    {/*  <About></About>
-    <Skills></Skills>
-    <Promotion></Promotion> */}
+    <Baseball></Baseball>
     <Footer></Footer> 
   </Layout>
 )
 
 
-export default IndexPage
+export default baseball
