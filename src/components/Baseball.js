@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
-const Basketball = () => {
+const Baseball = () => {
   return (
     <div className="section" id="baseball">
       <div className="container">
@@ -47,4 +47,4 @@ const Basketball = () => {
   )
 }
 
-export default Basketball
+export default Baseball

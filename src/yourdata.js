@@ -36,6 +36,9 @@ import basketball11 from "./images/details/basketball/3X3_11.jpeg"
 import baseball01 from "./images/details/baseball/AS_01.png"
 import baseball02 from "./images/details/baseball/AS_02.png"
 
+import kpga01 from "./images/details/kpga/kpga_01.png"
+import kpga02 from "./images/details/kpga/kpga_02.png"
+import kpga03 from "./images/details/kpga/kpga_03.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -180,15 +183,20 @@ export default {
   aboutImage:
     "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
           
-  aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-  aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-            
+  kpgaOne:
+    "KPGA 브랜딩 디자인",
+  kpgaTwo:
+    "KPGA 브랜딩 디자인입니다. 2019 KPGA KOREAN TOUR 출입카드와 문구 디자인을 진행하였습니다. KPGA의 메인컬러를 바탕으로 출입 그룹별로 컬러를 다르게 선정하여 약 600 여개의 목록의 카드를 편집하면서 인내와 책임감을 배울 수 있었습니다.",
+  kpgaThree:
+    "Branding Design of KPGA. I designed the 2019 KPGA KOREA TOUR access card and stationery. Based on the main color of KPGA, I was able to learn patience and responsibility by editing about 600 cards on the list by selecting different colors for each group.",
+    kpgaImageOne:
+    kpga01,
+    kpgaImageTwo:
+    kpga02,
+    kpgaImageThree:
+    kpga03,
+
+
   aboutParaOne:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
   aboutParaTwo:
