@@ -2,32 +2,56 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
-const About = () => {
+const Skwyverns = () => {
   return (
-    <div className="secion" id="about">
+    <div className="section" id="skwyverns">
       <div className="container">
         <div className="about-section">
           <div className="content">
             <Fade bottom cascade>
-              <h1>About Me</h1>
+              <h1>2018-2019
+                <br /><br /><br />
+                SK Wyverns 
+                <br /><br /><br />
+                Banners and Merchandise Design</h1>
             </Fade>
+              {data.skOne}
+
             <p>
-              {data.aboutParaOne}
+              <br /><br /><br />
               <br></br>
               <br></br>
-              {data.aboutParaTwo}
+              {data.skTwo}
               <br></br>
               <br></br>
-              {data.aboutParaThree}
+              {data.skThree}
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img src={data.skImageOne} alt="freecsImageOne"></img>
           </div>
+          <br></br>
+          <br></br>
+          
+     
         </div>
+
+          <br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br />
+
+            <img src={data.skImageTwo} alt="skImageTwo"></img>
+
+          
+
+            <img src={data.skImageThree} alt="skImageThree"></img>
+        
+            <img src={data.skImageFour} alt="skImageFour"></img>
+            <img src={data.skImageFive} alt="skImageFive"></img>
+
+
       </div>
     </div>
   )
 }
 
-export default About
+export default Skwyverns

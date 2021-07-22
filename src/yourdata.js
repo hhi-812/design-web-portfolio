@@ -33,8 +33,20 @@ import basketball09 from "./images/details/basketball/3X3_09.jpeg"
 import basketball10 from "./images/details/basketball/3X3_10.jpeg"
 import basketball11 from "./images/details/basketball/3X3_11.jpeg"
 
+import freecs01 from "./images/details/afreecafreecs/freecs_01.png"
+import freecs02 from "./images/details/afreecafreecs/freecs_02.png"
+import freecs03 from "./images/details/afreecafreecs/freecs_03.png"
+import freecs04 from "./images/details/afreecafreecs/freecs_04.png"
+import freecs05 from "./images/details/afreecafreecs/freecs_05.png"
+
 import baseball01 from "./images/details/baseball/AS_01.png"
 import baseball02 from "./images/details/baseball/AS_02.png"
+
+import sk01 from "./images/details/skwyverns/sk_01.jpeg"
+import sk02 from "./images/details/skwyverns/sk_02.png"
+import sk03 from "./images/details/skwyverns/sk_03.png"
+import sk04 from "./images/details/skwyverns/sk_04.png"
+import sk05 from "./images/details/skwyverns/sk_05.png"
 
 import kpga01 from "./images/details/kpga/kpga_01.png"
 import kpga02 from "./images/details/kpga/kpga_02.png"
@@ -60,7 +72,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "2년 4개월의 디자이너 시절 디자인한 작업물입니다. React를 이용한 디자인 포트폴리오 웹사이트 입니다. ",
+    "2년 4개월의 디자이너 시절의 디자인 작업물입니다. React를 이용하여 디자인 포트폴리오 웹사이트를 만들어 보았습니다. Google의 UX 엔지니어인 김종민 개발자의 저자 '일은 배신하지 않는다.'라는 책을 인상 깊게 읽었습니다. 책의 제목처럼 그동안 디자이너로 일했던 경험들이 개발자로 전향했다고 해서 무의미해진다고 생각하지 않습니다. 기술과 디자인의 융합을 통해 자유자재하게 창의적으로 구현하는 개발자로 성장하겠습니다. ",
 
   //Contact Email
   contactEmail: "123408hi@gmail.com",
@@ -98,7 +110,7 @@ export default {
       url: "baseball",
     },
     {
-      title: "SK Wyvenrs MD & Banner",
+      title: "SK Wyvenrs Merchandise & Banner",
       para:
       "2020 Afreeca Freecs Uniform Design & Products, Brand Design", 
       image:
@@ -158,15 +170,24 @@ export default {
   basketballImageEleven:
     basketball11,
     
-  aboutParaOne:
-    "안산공고 야구부 유니폼 디자인",
-  aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-      
+  freecsOne:
+    "2020시즌 아프리카프릭스 유니폼 및 상품 디자인",
+  freecsTwo:
+    "2020 시즌 아프리카프릭스 유니폼 및 상품 디자인입니다. 출시된 상품에 맞는 배너 이미지와 쇼핑몰 디자인을 맡았습니다. 쇼핑몰 디자인을 하면서 프로그래밍에 대한 흥미를 느끼고 프로그래밍을 시작하게 된 계기가 되었습니다.",
+  freecsThree:
+    "This is the design of Afreeca Freecs Uniforms and Merchandise for the 2020 season. I designed the banner image and shopping mall design for the released product. While designing the shopping mall, I became interested in programming and started programming. ",
+  freecsImageOne:
+    freecs01,
+  freecsImageTwo:
+    freecs02,
+  freecsImageThree:
+    freecs03,
+  freecsImageFour:
+    freecs04,
+  freecsImageFive:
+    freecs05,
+
+
   baseballOne:
     "안산공고 야구부 유니폼 디자인",
   baseballTwo:
@@ -178,14 +199,22 @@ export default {
   baseballImageTwo:
   baseball02,
         
-  aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-  aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  skOne:
+    "SK Wyverns 배너 및 상품 디자인",
+  skTwo:
+    "SK Wyverns 쇼핑몰 배너 및 이미지와 상품 디자인입니다. 그 중 2019년 달력 디자인의 이미지는 실제로 경기장 내 포스터로 사용되었습니다. 어릴 적부터 좋아하는 야구팀이였어서 즐겁게 작업한 기억이 있습니다. 이후 힘든 업무 속에서도 제 스스로가 즐거울 수 있는 업무를 찾아 주도적으로 업무하는 습관을 길러왔습니다. ",
+  skThree:
+    "This is the banner design of SK Wyverns shopping mall, image and Merchandise design. Among them, the 2019 calendar design image was actually used as a poster in the stadium. I remember having fun working on the baseball team because I liked it since I was young. Since then, I have developed a habit of taking the lead in finding tasks that I can enjoy even in the midst of hard work.",
+  skImageOne:
+    sk01,
+  skImageTwo:
+    sk02,
+  skImageThree:
+    sk03,
+  skImageFour:
+    sk04,
+  skImageFive:
+    sk05,
           
   kpgaOne:
     "KPGA 브랜딩 디자인",
