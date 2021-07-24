@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: ``,
-    description: ``,
-    author: ``,
+    title: `hhi-portfolio`,
+    description: `design-web-portfolio`,
+    author: `hhi`,
+    siteUrl: 'https://hhi-812.github.io/design-web-portfolio/',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +12,8 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+        siteUrl: 'https://hhi-812.github.io/design-web-portfolio/',
+        stripQueryString: true,
       },
     },
     `gatsby-transformer-sharp`,
