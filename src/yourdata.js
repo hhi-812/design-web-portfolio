@@ -203,7 +203,7 @@ export default {
   uxuiOne:
     "주식 초보자 가이드 UX/UI Design",
   uxuiTwo:
-    "UX/UI 수료 과정 중, 개인적인 경험과 주변의 이야기를 듣고 기획하였습니다. 주식을 처음 시작할 떄 기초적인 정보를 제공하는 애플리케이션의 필요를 느끼고 따뜻한 느낌의 애플리케이션 UI를 구현해 보았습니다.",
+    "UX/UI 수료 과정 중, 개인적인 경험과 주변의 이야기를 듣고 기획하였습니다. 주식을 처음 시작할 때 기초적인 정보를 제공하는 애플리케이션의 필요를 느끼고 따뜻한 느낌의 애플리케이션 UI를 구현해 보았습니다.",
   uxuiThree:
     "During the UX/UI process, I heard stories from people around me and planned it with more personal experience. When I first started the stock, I felt the need for an application that provides basic information, so I implemented a warm-feeling application UI.",
   uxuiImageOne:
